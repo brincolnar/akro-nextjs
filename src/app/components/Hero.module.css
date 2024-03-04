@@ -1,0 +1,20 @@
+/* Hero.module.css */
+
+.glowBackground {
+  background: white; /* Or any other simple background for small and medium screens */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+@media (min-width: 1024px) {
+  .glowBackground {
+    background: 
+      radial-gradient(circle farthest-side at 0% center, rgba(126, 58, 242, 0) 20%, rgba(126, 58, 242, 0.6) 40%, rgba(126, 58, 242, 0) 90%),
+      radial-gradient(circle farthest-side at 90% center, rgba(126, 58, 242, 0) 40%, rgba(126, 58, 242, 0.6) 20%, rgba(126, 58, 242, 0) 100%),
+      white; 
+    background-repeat: no-repeat;
+    background-position: -18% center, 121% center; 
+    background-size: 22% 100%, 22% 100%; 
+  }
+}
