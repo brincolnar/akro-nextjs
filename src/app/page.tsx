@@ -8,6 +8,7 @@ import Team from "./components/Team"
 import Testimonial from "./components/Testimonial"
 import FAQ from "./components/FAQ"
 import Footer from "./components/Footer"
+import Collaboration from "./components/Collaboration"
 
 export default function Home() {
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <LogoCarousel />
       <ValueProposition />
+      <Collaboration />
       <Team />
       <Testimonial />
       <FAQ />

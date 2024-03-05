@@ -104,7 +104,7 @@ const ValueProposition = () => {
                         <a href="#" className="flex flex-col items-center text-bold text-lg">
                             <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Povečanje prodaje</h2>
                             <Image src="/prodaja.svg" width={48} height={48} alt="" />
-                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                            <span className="font-light mt-2 text-md text-gray-500  dark:text-gray-400">
                             Naše spletne strani povečajo prodajo do 300% in več v primerjavi z obstoječimi stranmi naših strank.
                             </span>
                         </a>
@@ -113,7 +113,7 @@ const ValueProposition = () => {
                         <a href="#" className="flex flex-col items-center text-bold text-lg">
                             <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Mobilna optimizacija</h2>
                             <Image src="/mobile.svg" width={48} height={48} alt="" />
-                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                            <span className="font-light mt-2 text-md text-gray-500  dark:text-gray-400">
                                 Več kot 80% spletnega prometa je na telefonskih zaslonih, zato je mobilna optimizacija ključnega pomena pri prodajnem uspehu.
                             </span>
                         </a>
@@ -122,7 +122,7 @@ const ValueProposition = () => {
                         <a href="#" className="flex flex-col items-center text-bold text-lg">
                             <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Vrhunska varnost</h2>
                             <Image src="/shield.svg" width={48} height={48} alt="" />
-                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                            <span className="font-light mt-2 text-md text-gray-500  dark:text-gray-400">
                                 Uporabljamo najvarnejše tehnologije, ki zagotavljajo varnost vaših podatkov, podatkov vaših strank in nemoteno delovanje.
                             </span>
                         </a>
@@ -131,7 +131,7 @@ const ValueProposition = () => {
                         <a href="#" className="flex flex-col items-center text-bold text-lg">
                             <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">99.99% Up-time</h2>
                             <Image src="/server.svg" width={48} height={48} alt="" />
-                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                            <span className="font-light mt-2 text-md text-gray-500  dark:text-gray-400">
                                 Naše spletne strani obratujejo 24/7, tudi med vzdrževanjem.
                             </span>
                         </a>
