@@ -89,41 +89,53 @@ const ValueProposition = () => {
                 </div>
         </section>
     <section className="bg-white dark:bg-gray-900">
-        <div className="py-8">
-            <div className="items-center max-w-screen-xl px-4 mx-auto">
-                <div className="mt-6 mb-8">
-                    <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Zanesljivi partnerji</p>
-                    <h2 className=" mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Z
-                        nami do izjemnih rezultatov!</h2>
-                    <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Le nekaj izmed mnogih izboljšav,
-                        ki jih dosežemo.</p>
-                </div>
-            </div>
+        <div className="py-8 max-w-screen-xl px-4 mx-auto ">
             <div
                 className="flex flex-col lg:flex-row justify-center items-stretch border-gray-200 dark:border-gray-700 mt-8 mb-8  gap-6 lg:gap-8">
-                <div className="text-center mb-4 flex flex-col">
-                    <a href="#" className="flex flex-col items-center text-bold text-lg">
-                        <Image src="/Charts.png" width={48} height={48} alt="" />
-                        <span className="mt-2 flex-1 flex items-center justify-center">
-                            Do 300% in več povišana spletna prodaja
-                        </span>
-                    </a>
-                </div>
-                <div className="text-center mb-4 flex flex-col">
-                    <a href="#" className="flex flex-col items-center text-bold text-lg">
-                        <Image src="/Phone.png" width={48} height={48} alt="" />
-                        <span className="mt-2 flex-1 flex items-center justify-center">
-                            100% Mobilna optimizacija
-                        </span>
-                    </a>
-                </div>
-                <div className="text-center mb-4 flex flex-col">
-                    <a href="#" className="flex flex-col items-center text-bold text-lg">
-                        <Image src="/Metrics.png" width={48} height={48} alt="" />
-                        <span className="mt-2 flex-1 flex items-center justify-center">
-                            Top 1% hitrost spletne strani
-                        </span>
-                    </a>
+            <div className="items-center">
+                <div className="mt-6 mb-8">
+                    <p className="text-lg font-medium text-purple-600 dark:text-purple-500">Zanesljivi partnerji</p>
+                    <h2 className=" mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">Sodelovanje z nami so steroidi za vaš posel.</h2>
+                    <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Naštetih je le nekaj izmed izboljšav, ki jih lahko kot naša stranka pričakujete.</p>
+            </div>
+            </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2">
+                    <div className="text-center mb-4 flex flex-col">
+                        <a href="#" className="flex flex-col items-center text-bold text-lg">
+                            <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Povečanje prodaje</h2>
+                            <Image src="/prodaja.svg" width={48} height={48} alt="" />
+                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                            Naše spletne strani povečajo prodajo do 300% in več v primerjavi z obstoječimi stranmi naših strank.
+                            </span>
+                        </a>
+                    </div>
+                    <div className="text-center mb-4 flex flex-col">
+                        <a href="#" className="flex flex-col items-center text-bold text-lg">
+                            <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Mobilna optimizacija</h2>
+                            <Image src="/mobile.svg" width={48} height={48} alt="" />
+                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                                Več kot 80% spletnega prometa je na telefonskih zaslonih, zato je mobilna optimizacija ključnega pomena pri prodajnem uspehu.
+                            </span>
+                        </a>
+                    </div>
+                    <div className="text-center mb-4 flex flex-col">
+                        <a href="#" className="flex flex-col items-center text-bold text-lg">
+                            <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Vrhunska varnost</h2>
+                            <Image src="/shield.svg" width={48} height={48} alt="" />
+                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                                Uporabljamo najvarnejše tehnologije, ki zagotavljajo varnost vaših podatkov, podatkov vaših strank in nemoteno delovanje.
+                            </span>
+                        </a>
+                    </div>
+                    <div className="text-center mb-4 flex flex-col">
+                        <a href="#" className="flex flex-col items-center text-bold text-lg">
+                            <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">99.99% Up-time</h2>
+                            <Image src="/server.svg" width={48} height={48} alt="" />
+                            <span className="font-light text-md text-gray-500  dark:text-gray-400">
+                                Naše spletne strani obratujejo 24/7, tudi med vzdrževanjem.
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
