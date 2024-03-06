@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Collaboration = () => {
 
     return (
-        <section className="pb-8"> 
+        <section className="py-8 bg-gray-50 dark:bg-gray-800 pb-8"> 
             <div className="flex flex-col lg:flex-row px-4 mx-auto max-w-screen-xl">
                 <div className="mx-1 mt-4 lg:mt-0">
                     <Image src="/1.svg" width={16} height={16}

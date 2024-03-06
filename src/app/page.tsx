@@ -19,7 +19,6 @@ export default function Home() {
       <LogoCarousel />
       <ValueProposition />
       <Collaboration />
-      <Team />
       <Testimonial />
       <FAQ />
       <Footer />
