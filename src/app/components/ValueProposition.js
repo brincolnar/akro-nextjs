@@ -118,10 +118,10 @@ const ValueProposition = () => {
                             </span>
                         </a>
                     </div>
-                    <div className="text-center mb-4 flex flex-col">
+                    <div className="text-center mb-4 flex flex-col"> 
                         <a href="#" className="flex flex-col items-center text-bold text-lg">
                             <h2 className="mb-4 text-xl font-extrabold tracking-tight text-gray-900 dark:text-white">Vrhunska varnost</h2>
-                            <Image src="/shield.svg" width={48} height={48} alt="" />
+                            <Image src="/Shield.svg" width={48} height={48} alt="" />
                             <span className="font-light mt-2 text-md text-gray-500  dark:text-gray-400">
                                 Uporabljamo najvarnejše tehnologije, ki zagotavljajo varnost vaših podatkov, podatkov vaših strank in nemoteno delovanje.
                             </span>
